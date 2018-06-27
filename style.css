@@ -7,7 +7,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Italianno;
+    font-family: Italianno, arial, sans-serif;
     font-size: 2em;
     font-weight: bold;
     /*box-sizing: border-box;*/
