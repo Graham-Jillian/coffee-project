@@ -13,30 +13,29 @@
 <body>
 
 <div class="container">
-<h1>Caffè Italia</h1>
+    <h1>Caffè Italia</h1>
+        <div class="row">
+            <div class="col-sm-8 col-md-6 col-lg-4">
+                <h2>Roast</h2>
+                    <select class="form-control" id="roast-selection">
+                        <option id="roastchoice" value="light">light</option>
+                        <option id="roastchoice" value="medium">medium</option>
+                        <option id="roastchoice" value="dark">dark</option>
+                    </select>
+                <h2>Coffee Name</h2>
+                    <input class="form-control" type="text" id="myInput" placeholder="Coffee Name" title="Type in a name"><br>
+                    <input id="submit" class="btn form-control btn-danger btn-lg btn-block" type="submit"/>
+            </div>
 
-<div class="row">
-    <div class="col-sm-8 col-md-6 col-lg-4">
-            <h2>Roast</h2>
-                <select class="form-control" id="roast-selection">
-                    <option id="roastchoice" value="light">light</option>
-                    <option id="roastchoice" value="medium">medium</option>
-                    <option id="roastchoice" value="dark">dark</option>
-                </select>
-
-            <h2>Coffee Name</h2>
-            <input class="form-control" type="text" id="myInput" placeholder="Coffee Name" title="Type in a name"><br>
-            <input id="submit" class="btn form-control btn-danger btn-lg btn-block" type="submit"/>
-        </div>
-
-    <div class="col-sm-12 col-md-10 col-lg-8">
-        <div class="box">
-            <p id="demo"></p>
-            <div class="container" id="coffees">
+            <div class="col-sm-12 col-md-10 col-lg-8">
+                <div class="box">
+                    <p id="demo"></p>
+                    <div class="container" id="coffees"></div>
+                </div>
             </div>
         </div>
-    </div>
 </div>
+
 <script src="main.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -47,6 +46,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-</div>
 </body>
 </html>
