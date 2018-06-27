@@ -18,7 +18,6 @@ form {
 
     padding: 5px 12px;
     text-align: center;
-
 }
 
 h1 {
@@ -27,6 +26,5 @@ h1 {
     letter-spacing: 10px;
     margin: 0;
     padding: 0;
-    font-weight: bold;
-    text-shadow: 5px 15px 35px saddlebrown ;
+    font-weight: bolder;
 }
